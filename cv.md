@@ -25,6 +25,7 @@
 
 ********************
 ## *Code example:*
+#### The main idea here is to reverse the string. If the “reverse” string is completely identical to the original one, then we have received a palindrome and the function should return true. If not, false.
 ```
 const palindrome = str => {
   str = str.toLowerCase()
