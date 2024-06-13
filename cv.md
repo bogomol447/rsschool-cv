@@ -1,13 +1,13 @@
 # Aliaksei Matsiyuk
 ********************
-# Contact Information
+## Contact Information
 ********************
-# About Myself
+## About Myself
 ********************
-# My Skills
+## My Skills
 ********************
-# Code example:
+## Code example:
 ********************
-# Courses:
+## Courses:
 ********************
-# Languages:
+## Languages:
