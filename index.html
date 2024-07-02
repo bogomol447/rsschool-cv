@@ -3,9 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV</title>
 </head>
 <body>
-    CV
+    <header>
+        <div class="container">
+            <nav class="nav-menu">
+                <ul class="nav-menu-items">
+                    <li class="nav-menu-link"><a href="#contacts">Contacts</a></li>
+                    <li class="nav-menu-link"><a href="#about">About</a></li>
+                    <li class="nav-menu-link"><a href="#skills">Skills</a></li>
+                    <li class="nav-menu-link"><a href="#code">Code</a></li>
+                    <li class="nav-menu-link"><a href="#courses">Courses</a></li>
+                    <li class="nav-menu-link"><a href="#lang">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section class="Contacts" id="contacts">
+                <h1 class="header-text"><i>Aliaksei Matsiyuk</i></h1>
+                <img src="../myphoto.jfif" alt="my_photo" class="my_photo">
+                <h2 class="subheader-text"><i>Contact Information:</i></h2>
+                <div class="items">
+                    <ul class="list-items">
+                        <li class="cont-1"><h4>📞 Phone: +375 44 5596027</h4></li> 
+                        <li class="cont-2"><h4>💬 Telegram: @bogomol447</h4></li>
+                        <li class="cont-3"><h4>📧 Email: aliakseimatsiyuk@gmail.com</h4></li>
+                        <li class="cont-4"><h4><a href="https://www.linkedin.com/in/aliaksei-matsiyuk-02769228a/">💼 LinkedIn</a></h4></li>
+                    </ul>
+                </div>
+            </section>
+            <hr>
+            <section class="About" id="about">
+                <h2 class="subheader-text"><i>About Myself</i></h2>
+                <div class="items">
+                    <p class="text">My name is Matiyuk Alexey Igorevich, I am 19 years old and I study at BNTU. I have always been interested in such things as design, art, etc., and I was also attracted and very interested in such an area as IT. Based on these preferences, I discovered such a branch in IT as Web development, and in particular Frontend. This is a very interesting job and activity for me, i like to learn new things in this area and constantly improve my skills. In the future I plan to get a job at a company like EPAM. I believe that to successfully complete assigned tasks a person must have:</p>   
+                        <ul class="list-items">
+                            <li class="ab-1"><h4>🔘 Desire</h4></li>
+                            <li class="ab-2"><h4>🔘 Self-discipline</h4></li>
+                            <li class="ab-3"><h4>🔘 Interest</h4></li>
+                            <li class="ab-4"><h4>🔘 Hard work</h4></li>
+                        </ul>
+                </div>
+            </section>
+            <hr>
+            <section class="Skills" id="skills">
+                <h2 class="subheader-text"><i>My Skills</i></h2>
+                <div class="items">
+                    <ul class="list-items">
+                        <li class="skil-1"><h4>💡 HTML, CSS</h4></li>
+                        <li class="skil-2"><h4>💡 JavaScript(Basics)</h4></li>
+                        <li class="skil-3"><h4>💡 Git, GitHub(Basics)</h4></li>
+                        <li class="skil-4"><h4>💡 VSCode, WebStorm, PyCharm</h4></li>
+                        <li class="skil-5"><h4>💡 Figma, Adobe Photoshop(Basic)</h4></li>
+                    </ul>
+                </div>
+            </section>
+            <hr>
+            <section class="Code" id="code">
+                <h2 class="subheader-text"><i>Code example</i></h2>
+                <div class="items">
+                    <p class="text">The main idea here is to reverse the string. If the “reverse” string is completely identical to the original one, then we have received a palindrome and the function should return true. If not, false.</p>
+                    <div class="text-block"><code>
+                        <br>
+                        const palindrome = str => {<br>
+                            str = str.toLowerCase()<br>
+                            return str === str.split('').reverse().join('')<br>
+                        }
+                    </code></div>
+                </div>
+            </section>
+            <hr>
+            <section class="Courses_and_Projects" id="courses">
+                <h2 class="subheader-text"><i>Courses & Projects</i></h2>
+                <div class="items">
+                    <ul class="list-items">
+                        <li class="cours-1"><h4><a href="https://bogomol447.github.io/rsschool-cv/cv">📁 «JavaScript/Front-end. Stage 0. CV»</a></h4></li>
+                        <li class="cours-2"><h4>📁 RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</h4></li>
+                        <li class="cours-3"><h4>📁 Udemy «WEB-разработчик» (in progress)</h4></li>
+                        <li class="cours-4"><h4>📁 Udemy «Полный курс по JavaScript + React - с нуля до результата» (in progress)</h4></li>
+                        <li class="cours-5"><h4>📁 HTML and CSS Tutorials on the w3schools (in progress)</h4></li>
+                    </ul>
+                </div>
+            </section>
+            <hr>
+            <section class="Languages" id="lang">
+                <h2 class="subheader-text"><i>Languages</i></h2>
+                <div class="items">
+                    <ul class="list-items">
+                        <li class="lng-1"><h4>📚 English - В1 (Intermediate)</h4></li>
+                        <li class="lng-2"><h4>📚 Russian - Native</h4></li>
+                        <li class="lng-3"><h4>📚 Polish - А1 (Beginner)</h4></li>
+                        <li class="lng-4"><h4>📚 Belarusian - В1 (Intermediate)</h4></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="items">
+                <div class="footer-items">
+                    <a href="https://rs.school/courses/javascript-preschool-ru" class="footer-link">RSSCHOOL</a>
+                    <a href="https://rs.school/courses/javascript-preschool-ru"><img src="../rsschool-logo.svg" alt="logo"></a>
+                    <a href="https://github.com/bogomol447" class="footer-link">My GitHub</a>
+                </div>
+            </div>
+            <div class="year-text">2024</div>
+        </div>
+    </footer>
 </body>
 </html>
