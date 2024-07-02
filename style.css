@@ -1,0 +1,295 @@
+*{
+margin: 0 auto;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #d6d0d0;
+}
+
+.container {
+    margin: 0 20px 0 20px;
+}
+
+header {
+background-color: #554853;
+height: 61,6px;
+}
+
+.text{
+    margin-top: 15px;
+    color: #605c64;
+    font-size: 30px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.text-block{
+    height: 270px;
+    background-color:#d4cfd8;
+    margin-top: 20px;
+    max-width: 600px;
+    border: 3px solid black;
+    border-radius: 1.5%;
+    font-size: 30px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.list-items {
+   color: #605c64;
+   font-size: 25px;
+   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.list-items {
+    color: #605c64;
+    text-decoration: none;
+}
+
+.nav-menu-items {
+    color: #dce4e7;
+    list-style-type: none;
+    display:flex;
+    justify-content: space-between;
+    padding: 20px 50px 20px 50px;
+    font-size: large;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+
+.nav-menu-items .nav-menu-link a{
+    text-decoration: none;
+    color: #dce4e7;
+    list-style-type: none;
+    display:flex;
+    justify-content: space-between;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.Contacts {
+    width: 100%;
+    max-height: 700px;
+    margin: 30px 0 30px 0;
+}
+
+.Contacts .cont-1{
+    margin-top: 5px;
+    position: relative;
+}
+
+.Contacts .cont-2{
+    margin-top: 10px;
+    position: relative;
+}
+
+.Contacts .cont-3{
+    margin: 10px 0 10px 0;
+    left: 60px;
+    position: relative;
+}
+
+.Contacts .cont-4 a{
+    left: -98px;
+    position: relative;
+    text-decoration: none;
+    color: #605c64
+}
+
+.header-text {
+    color: #251c1c;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.my_photo{
+    display: block;
+    margin: 30px auto;
+    width: 200px;
+    height: 200px; 
+    border-radius: 50%;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.subheader-text {
+    color: #251c1c;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.items {
+    text-align: center;
+}
+
+.list-items{
+    list-style-type: none;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.About {
+    width: 100%;
+    max-height: 800px;
+    margin: 30px 0 30px 0;
+}
+
+
+.About .ab-1 {
+    margin-top: 5px;
+    position: relative;
+    left: -110px;
+}
+
+.About .ab-2 {
+    margin-top: 10px;
+    position: relative;
+    left: -65px;
+}
+
+.About .ab-3 {
+    margin-top: 10px;
+    position: relative;
+    left: -102px;
+}
+
+.About .ab-4 {
+    margin-top: 10px;
+    position: relative;
+    left: -85px;
+}
+
+.Skills {
+    width: 100%;
+    max-height: 700px;
+    margin: 30px 0 30px 0;
+}
+
+.Skills .skil-1 {
+    position: relative;
+    left: -80px;
+}
+
+.Skills .skil-2 {
+    margin-top: 10px;
+    position: relative;
+    left: -40px;
+}
+
+.Skills .skil-3 {
+    margin-top: 10px;
+    position: relative;
+    left: -32px;
+}
+
+.Skills .skil-4 {
+    margin-top: 10px;
+    position: relative;
+    right: -32px;
+}
+
+.Skills .skil-5 {
+    margin-top: 10px;
+    position: relative;
+    right: -47px;
+}
+
+
+.Code {
+    width: 100%;
+    max-height: 700px;
+    margin: 30px 0 30px 0;
+}
+
+.Courses_and_Projects {
+    width: 100%;
+    max-height: 700px;
+    margin: 30px 0 30px 0;
+}
+
+.Courses_and_Projects .cours-1 a{
+    text-decoration: none;
+    color: #605c64;
+}
+
+.Courses_and_Projects .cours-2 {
+    margin-top: 10px;
+
+}
+
+.Courses_and_Projects .cours-3 {
+    margin-top: 10px;
+
+}
+
+.Courses_and_Projects .cours-4 {
+    margin-top: 10px;
+
+}
+
+.Courses_and_Projects .cours-5 {
+    margin-top: 10px;
+
+}
+
+.Languages {
+    width: 100%;
+    max-height: 700px;
+    margin: 30px 0 30px 0;
+}
+
+.Languages .lng-1 {
+    margin-top: 10px;
+    position: relative;
+    left: -50px;
+}
+
+.Languages .lng-2 {
+    margin-top: 10px;
+    position: relative;
+    left: -113px;
+}
+
+.Languages .lng-3 {
+    margin-top: 10px;
+    position: relative;
+    left: -80px;
+}
+
+.Languages .lng-4 {
+    margin-top: 10px;
+    position: relative;
+    left: -32px;
+}
+
+footer{
+    background-color: #554853;
+}
+
+.footer-items{
+    padding: 30px 0 30px 0;
+}
+
+.footer-items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.year-text{
+    padding: 0 0 20px 0;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
