@@ -162,3 +162,45 @@ height: 61,6px;
     position: relative;
     left: -85px;
 }
+
+.Skills {
+    width: 100%;
+    max-height: 700px;
+    margin: 30px 0 30px 0;
+}
+
+.Skills .skil-1 {
+    position: relative;
+    left: -80px;
+}
+
+.Skills .skil-2 {
+    margin-top: 10px;
+    position: relative;
+    left: -40px;
+}
+
+.Skills .skil-3 {
+    margin-top: 10px;
+    position: relative;
+    left: -32px;
+}
+
+.Skills .skil-4 {
+    margin-top: 10px;
+    position: relative;
+    right: -32px;
+}
+
+.Skills .skil-5 {
+    margin-top: 10px;
+    position: relative;
+    right: -47px;
+}
+
+
+.Code {
+    width: 100%;
+    max-height: 700px;
+    margin: 30px 0 30px 0;
+}
