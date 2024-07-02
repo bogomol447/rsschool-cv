@@ -67,3 +67,98 @@ height: 61,6px;
     justify-content: space-between;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
+
+.Contacts {
+    width: 100%;
+    max-height: 700px;
+    margin: 30px 0 30px 0;
+}
+
+.Contacts .cont-1{
+    margin-top: 5px;
+    position: relative;
+}
+
+.Contacts .cont-2{
+    margin-top: 10px;
+    position: relative;
+}
+
+.Contacts .cont-3{
+    margin: 10px 0 10px 0;
+    left: 60px;
+    position: relative;
+}
+
+.Contacts .cont-4 a{
+    left: -98px;
+    position: relative;
+    text-decoration: none;
+    color: #605c64
+}
+
+.header-text {
+    color: #251c1c;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.my_photo{
+    display: block;
+    margin: 30px auto;
+    width: 200px;
+    height: 200px; 
+    border-radius: 50%;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.subheader-text {
+    color: #251c1c;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.items {
+    text-align: center;
+}
+
+.list-items{
+    list-style-type: none;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.About {
+    width: 100%;
+    max-height: 800px;
+    margin: 30px 0 30px 0;
+}
+
+
+.About .ab-1 {
+    margin-top: 5px;
+    position: relative;
+    left: -110px;
+}
+
+.About .ab-2 {
+    margin-top: 10px;
+    position: relative;
+    left: -65px;
+}
+
+.About .ab-3 {
+    margin-top: 10px;
+    position: relative;
+    left: -102px;
+}
+
+.About .ab-4 {
+    margin-top: 10px;
+    position: relative;
+    left: -85px;
+}
